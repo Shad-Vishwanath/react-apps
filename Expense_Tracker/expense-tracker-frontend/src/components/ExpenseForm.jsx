@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 
-const API_URL = 'http://localhost:5000/api/expenses'; 
+// Paste this new value into the API_URL constant in both files:
+
+const API_URL = 'https://vishwa-tracker-api.onrender.com/api/expenses';
 const DEFAULT_CATEGORIES = [
     'Groceries', 'Veggies', 'Snacks', 'Milk', 'Non-Veg', 'Online', 
     'Petrol', 'Other Expenses', 'Cylinder', 'GRT', 'Tution', 'EB'
